@@ -1,0 +1,14 @@
+Index: app/src/main/java/com/example/androidappstorepc/Constant.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/androidappstorepc/Constant.java	(date 1608330231898)
++++ app/src/main/java/com/example/androidappstorepc/Constant.java	(date 1608330231898)
+@@ -0,0 +1,6 @@
++package com.example.androidappstorepc;
++
++public class Constant {
++    public static final String NAMESHARED="mydata";
++    public static final String ISCONNECTED="isConncted";
++}
