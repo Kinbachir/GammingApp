@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -48,7 +49,6 @@ public class MyListAdapter extends RecyclerView.Adapter< GameViewHolder > {
             }
         });
     }
-
     @Override
     public int getItemCount() {
         return mFlowerList.length;
